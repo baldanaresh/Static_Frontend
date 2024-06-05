@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            /* background-color: rgb(121, 165, 165); */
+        } 
+        body{
+            background-color:#cad5e2;
+          font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+            }
+        img{
+            width: 350px;
+            height: 200px;
+        }
+        .card-image{
+            width: 350px;
+            height: 200px;
+            background-color: #fff;
+        }
+        .container{
+            display: flex;
+            /* background-color: #fff; */
+            flex-wrap: wrap;
+            justify-content: center;
+            align-content: center;
+            gap: 20px;
+
+        }
+        .card{
+            background-color: #ffffff;
+            margin: 5px;
+            width:350px ;
+            height: 380px;
+            border-radius: 10px;
+            padding: 15px;
+            /* padding-right: -10px; */
+           text-align: start;
+           position: relative;
+           
+        }
+        p{
+            margin: 10px;
+            font-size: 22px;
+            color: #5555e2;
+        }
+        h3{
+            position:absolute;
+            left: 25px;
+            bottom: 30px;
+        }
+        p + P{
+            color: #000;
+            font-size: 20px;
+            margin-top: 20px;
+            font-weight: 100;
+        }
+        .card-image + p{
+            margin-top: 25px;
+        }
+        .main {
+        /* display: flex;
+        flex-wrap: wrap;
+        align-items: center; */
+        margin-top: 25px;
+        margin-bottom: 100px;
+        /* padding-left: 40%; */
+     
+        text-align: center;
+
+        }
+        .lc:hover{
+            color: rgb(44, 232, 104);
+            cursor: pointer;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <div class="main"><h1>Community Programs</h1>
+        <p>Open to all pro-live classes on Youtube for free.</p></div>
+    <section class="container">
+        
+        <div class="card ">
+            <div class="card-image img1">
+                <img src="./img1hitesh.jpg" alt="Not available">
+            </div>
+            <!-- <img src="./img1hitesh.jpg" alt="Not available"> -->
+            <p class="lc">Masterclass Understanding API in  Web Development with Roadmap</p>
+            <p>Hitesh Chowdary</p>
+           <h3>FREE</h3>
+        </div>
+        <div class="card card-2">
+            <div class="card-image img2">
+                <img src="./img2mohan.jpg" alt="Not available">
+            </div>
+            <!-- <img src="./img2mohan.jpg" alt="Not available"> -->
+            <p class="lc"> Masterclass Cracking The Coding Intreview LinkedList</p>
+            <p>Vishwa Mohan</p>
+            <h3>FREE</h3>
+        </div>
+        <div class="card card-3">
+            <div class="card-image img3">
+                <img src="./img3priya.jpg" alt="not available">
+            </div>
+            <!-- <img src="./img3priya.jpg" alt="not available"> -->
+            <p class="lc">MasterClass Important of DSA in Modren Programming</p>
+            <p>Priya Bhatia</p>
+            <h3>FREE</h3>
+        </div>
+  </section>
+</body>
+</html>
