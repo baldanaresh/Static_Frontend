@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthy</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+       margin: 0px 10%;
+        }
+        .container{
+            display: grid;
+            grid-template-columns: 1.4fr 1fr 0.4fr;
+            /* gap:0px 0px; */
+            column-gap: 0px;
+            
+            /* height:50%; */
+            
+            margin-bottom: 10px;
+            margin-left: 5%;
+            margin-right: -2%;
+
+        }
+        .yellow{
+            width:100%;
+            height: 100%;
+            background-color: yellow;
+            margin-left: -15%;
+            /* border: 1px solid black; */
+            justify-self: left;
+        }
+        .content{
+            margin-top: 5%;
+            margin-right: 12%; 
+            align-self: center;
+            padding-left: 3%;
+        }
+        img{
+            height: 100%;
+            padding-right: 0px;
+        }
+        .img{
+            justify-self: stretch;
+        }
+       .content h1{
+            font-size: 40px;
+        }
+       p + button{
+            color: #fff;
+            background-color: black;
+            width: 180px;
+            height: 40px;
+            margin-top: 53px;
+        }
+        p{
+            color: #4c665d;  
+        }
+        button >p{
+            font-size: 18px;
+            color: #fff;
+            margin-top: 7.9px;
+            /* border: #fff 2px solid; */
+        }
+        .logo img{
+            width: 50px;
+            height: 50px;
+        }
+        nav{
+            display: grid;
+            grid-template-columns: 1.3fr 2fr 1fr  ;
+           
+            margin-top: 10px;
+        }
+        .para{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            justify-items: left;
+            margin-left: 5%;
+            /* border: 2px solid black; */
+            width: 50%;
+        }
+        .btn{
+            justify-self: end;
+            align-self: center;
+            margin-right: 2px;
+        
+        }
+      .para p{
+            font-size: 16px;
+            color:black;
+            /* border: 2px solid black; */
+            padding-left: 0%;
+        }
+        .para p:hover{
+            color: #0fdb6b;
+            cursor: pointer;
+        }
+       .btn button{
+          min-width: 160px;
+          min-height: 38px;
+          border-radius: 6px;
+          font-weight: bold;
+          border: 0;
+          background-color: #0fdb6b;
+          margin-top: 0px;
+        }
+        .btn button:hover{
+            color: #fff;
+        }
+      
+        .middle{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+        .m-img >img{
+            width: 150px; 
+            height: 300px;
+            margin-left: 30%;
+            /* text-align: center; */
+        }
+        .middle{
+            background-color: #2b1e16;
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            height: 450px;
+            justify-content: center;
+            margin-left: 10px;
+            margin-bottom: 10px;
+            column-gap: 30px;
+            padding-top: 20px;
+            width: 100%;
+        }
+        .m-img p{
+            text-align: center;
+          color:  #8c6e54;
+        }
+       .m-img h1{
+            font-size:26px ;
+            text-align: center;
+            color:#fff;
+        }
+        #delivaryimg{
+            margin-bottom: 50px;
+            height: 250px;
+        }
+        .bottom{
+            display: grid;
+           margin: 3%;
+           margin-bottom: 5%;
+            grid-template-columns: repeat(3,1fr);
+            gap: 10% 5%;
+            position: relative;
+            right: 50px;
+            width: 100%;
+        }
+        botimg >img{
+            width: 350px;
+            height: 200px;
+            border-top-right-radius: 20px;
+            border-top-left-radius: 20px;
+        }
+        .item{
+            border: 1px solid black;
+            width: 350px;
+            border-radius: 20px;
+            text-align: center;
+        }
+        .bottom{
+            margin-left: 5%;
+        }
+        .footer{
+            display: grid;
+            grid-template-columns:1fr 1fr 1fr;
+            /* grid-template-rows: 2fr 1fr; */
+            background-color: #2b1e16;
+            gap:20px 20px;
+            height: 350px;
+            padding: 5%;
+            width: 92%;
+            
+        }
+        .fimg >img{
+            width: 300px;
+            height: 300px;
+        }
+        .fdiv >h1{
+            color: #fff;
+        }
+        .fdiv >p{
+            color: #8c6e54;
+            margin: 7%;
+        }
+        .copywrite p{
+            font-size: 20px;
+            color: #fff;
+            text-align: center;
+        }
+        .copywrite{ 
+            width: 100%;
+            margin-left: 100%;
+        }
+
+    </style>
+
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="./pngtree-healthy-food-logo-design-with-chopstick-png-image_9016805.png" alt="Logo">
+            </div>
+            <div class="para">
+            <p>Home</p>
+            <p>About</p>
+            <p>Contact</p>
+            </div>
+            <div class="btn">
+                <button>Login</button>
+            </div>
+        </nav>
+    </header>
+
+
+    <div class="container">
+        <div class="content">
+            <h1>Healthy Food</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum eligendi aut, at mollitia, rem voluptate illo minus sit iusto suscipit ipsa voluptas velit nemo, hic excepturi? Qui accusantium accusamus ea! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum eligendi aut, at mollitia, rem voluptate illo minus sit iusto suscipit ipsa voluptas velit nemo, hic excepturi? Qui accusantium accusamus ea!</p>
+            <button>
+                <p>Read More</p>
+            </button>
+        </div>
+        <div class="img">
+            <img src="./fruit.jpg" alt="fruitImg">
+        </div>
+        <div class="yellow">
+        </div>
+    </div>
+
+    <div class="middle">
+        <div class="m-img">
+        <img id="No-minorderimg" src="./4x_-_No_min_order_x0bxuf.webp" alt="No-minorderimg">
+        <h1>No minimum Order</h1>
+        <p>Order in for yourself or for the group, with no restrictions on order value</p>
+        </div>
+        <div class="m-img">
+        <img id="order-trackimg" src="./4x_Live_order_zzotwy.webp" alt="order-trackimg">
+        <h1>Live Order Tracking</h1>
+        <p>Know where your order is at all times, from the restaurant to your doorstep</p>
+        </div>
+        <div class="m-img">
+        <img id="delivaryimg" src="./4x_-_Super_fast_delivery_awv7sn.webp" alt="delivaryimg">
+        <h1>Lightning-Fast Delivery</h1>
+        <p>Experience Swiggy's superfast delivery for food delivered fresh & on time</p>
+        </div>
+    </div>
+    <div class="bottom">
+        <div class="item">
+            <botimg>
+                <img src="./orderonline.avif" alt="onlineimg">
+            </botimg>
+            <h3>Order Online</h3>
+            <p> Stay Home and order to your Door Step</p>
+        </div>
+        <div class="item">
+            <botimg>
+                <img src="./onsite dining.avif" alt="Diningimg">
+            </botimg>
+            <h3>On-site Dining</h3>
+            <p>View the city's favourite dining venues.</p>
+        </div>
+        <div class="item">
+            <botimg>
+                <img src="./nightlife and clubs.avif" alt="clubsimg">
+            </botimg>
+            <h3>Nightlife & Clubs</h3>
+            <p>Explore the city's top nightlife outlets & Book tables.</p>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="fimg">
+            <img src="./pngtree-healthy-food-logo-design-with-chopstick-png-image_9016805.png" alt="">
+        </div>
+        <div class="fdiv">
+            <h1>Navigation Links</h1>
+            <p>Home</p>
+            <p>About</p>
+            <p>Contact</p>
+            <p>Login</p>
+        </div>
+        <div class="fdiv">
+            <h1>Learn More</h1>
+            <p>Privacy</p>
+            <p>Security</p>
+            <p>Terms</p>
+            <p>Sitemap</p>
+        </div>
+        <div class="copywrite">
+            <p>© Copyright All rights Reserved</p>
+        </div>
+    </div>
+</body>
+</html>

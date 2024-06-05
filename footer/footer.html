@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Footer</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            
+        }
+        .blank{
+            
+            width: 100%;
+            height: 400px;
+        }
+        .footer-container{
+            background-color: #1b2124;
+            color: #fff;
+            width: 100vw;
+            height:380px;
+            position:absolute;
+            bottom: 0px;
+            font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+           
+        }
+        .footer-items{
+            display: flex;
+            justify-content: center;
+            gap:10%;
+            align-items: center;
+            margin-top: 80px;
+        }
+        .left{
+            /* background-color: #841d1d; */
+            width: 150px;
+            height: 250px;
+            /* text-align: center; */
+            /* margin-left:20px ; */
+            padding-left:10px ;
+            
+            
+        }
+        .middle{
+            /* background-color: rgb(67, 67, 155); */
+            width: 300px;
+            height: 250px;
+            display: flex;
+            position: relative;
+            flex-direction: row;
+            /* flex-wrap: wrap; */
+            justify-content: space-between;
+            gap: 12%;
+            
+        }
+        .right{
+            /* background-color: rgb(70, 95, 82); */
+            width: 200px;
+            height: 250px;
+            position: relative;
+        }
+        img{
+            width:60px;
+        }
+        .iso-img{
+            width: 100px;
+            height: 100px;
+            /* margin-bottom: 60px;
+            background-color: #fff; */
+            margin-bottom: 20px;
+            margin-top: 60px;
+        }
+       .pw-img{
+        margin-bottom: 20px;
+        margin-top: 30px;
+       }
+
+       img +p{
+        /* color: aqua; */
+        margin-top: 20px;
+       }
+
+       h3{
+        position: absolute;
+        left:40px;
+        top:20px;
+        font-size: 25px;
+
+       }
+       .about{
+        margin-top: 100px;
+        /* padding: 10px; */
+        /* padding-left: ; */
+        display: flex;
+        flex-direction: column;
+        align-items: space-around;
+        row-gap: 20%;
+       }
+       .contact{
+        margin-top: 100px;
+        display: flex;
+        padding-left: 10px;
+        flex-direction: column;
+        row-gap: 20%;
+        
+       }
+       .products{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 50px;
+        padding-left: 30px;
+       }
+       /* hr{
+        border: 2px solid rgb(197, 149, 54);
+       } */
+    </style>
+</head>
+<body>
+    <div class="blank">
+    </div>
+    <div class="footer-container">
+        <div class="footer-items">
+        <div class="left">
+            <div class="pw-img">
+                <img src="https://pwskills.com/images/PWSkills-white.png" alt="Logo">
+            </div>
+            <p class="email">Email us:</p>
+            <p>support@pwskills</p>
+            <div class="iso-img">
+                <img src="" alt="Logo">
+                <p>ISO 9001</p>
+            </div>
+        </div>
+        <div class="middle">
+            <h3>PW Skills</h3>
+            <br>   
+            <div class="about">
+                <p>
+                    About Us
+                </p>
+                <p>FAQs</p>
+                <p>Privacy policy</p>
+            </div>
+            <div class="contact">
+                <p>Contact Us</p>
+                <p>Job assistance</p>
+                <p>Trems and conditions</p>
+            </div>
+        </div>
+        <div class="right">
+           <div class="products">
+             <h3>Products</h3>
+            <br>
+            <p>pw Skills Lab</p>
+            <p>Job Portal</p>
+            <p>Experience portal</p>
+            <p>Become an affiliate</p>
+            <p>Hall of fame</p>
+        </div>
+        </div>
+     </div>
+    </div>
+    <!-- <img src="https://pwskills.com/images/iso-9001-2015.svg" alt="unable to load"> -->
+</body>
+</html>
